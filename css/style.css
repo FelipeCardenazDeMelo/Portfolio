@@ -1,0 +1,49 @@
+
+
+@font-face {
+    font-family: 'Prompt-Regular';
+    src: url('../fonts/Prompt/Prompt-Regular.ttf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Prompt-Bold';
+    src: url('../fonts/Prompt/Prompt-Bold.ttf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Reem-Regular';
+    src: url('../fonts/Reem_Kufi_Ink/ReemKufiInk-Regular.ttf');
+    font-weight: normal;
+}
+
+Cores{
+    /* Fundo */
+    background-color: #121519;
+
+    /* Links */
+    color: #6f94f2;
+
+}
+
+::-webkit-scrollbar-track{
+    background-color: rgba(39, 0, 89, 1);
+}
+
+::-webkit-scrollbar{
+    width: 6px;
+    background-color: #F4F4F4;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: crimson;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-corner{
+    background-color: rgba(39, 0, 89, 1);
+
+}
+
+

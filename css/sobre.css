@@ -1,0 +1,129 @@
+#Sobre {
+    background-image: radial-gradient( circle farthest-corner at -4% -12.9%,  rgb(21, 28, 31) 0.3%, rgb(12, 14, 21) 90.2% );    
+    margin: 0;
+    height: 600px;
+    margin: -8px;
+
+}
+
+.Sobre {
+    padding-top:70px;
+}
+
+.Sobre h2 { 
+    text-align: center;
+    padding-bottom: 50px;
+    font-family: "Prompt-Regular";
+    font-size: 50px;
+    color: white;
+    margin-top: -1%;
+}
+
+.sobre-descricao {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap:50px;
+    padding-bottom: 70px;
+}
+
+.containerSobre2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 37px;
+    max-width: 55%;
+}
+
+.skill-box {
+    height: 106px;
+    width: 106px;
+    background-color: #209bd871;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: ease 0.3s;
+    box-shadow: 5px 5px #000000;
+
+}
+
+.skill-box:hover {
+    background-color: #1fabf1;
+       box-shadow: 0 0 2px rgba(0,155,255,0.5),
+                0 0 10px rgba(0,155,255,0.5),
+                0 0 10px rgba(0,155,255,0.5),
+                0 0 10px rgba(0,155,255,0.5),
+                0 0 10px rgba(0,155,255,0.5);
+        transform: scale(1.1);
+}
+
+.containerDescricao {
+    color: white;
+    font-family: 'Prompt-Regular';
+    font-size: 20px;
+    max-width: 40%;
+    margin-left: -10%;
+    margin-top: -4%;
+    
+}
+
+.containerDescricao p span {
+    color: crimson;
+    font-size: 28px;
+    font-family: 'Reem-Regular';
+}
+
+.containerDescricao .Wepapel {
+    color: chartreuse;
+}
+
+.containerDescricao .TOTVS {
+    color: chartreuse;
+}
+
+.containerDescricao p{
+    line-height: 22px;
+}
+
+
+.skill1 img{
+    width: 80px;
+    height: 80px;
+}
+
+
+
+.skill2 img{
+    width: 80px;
+    height: 80px;
+}
+
+.skill3 img{
+    width: 80px;
+    height: 80px;
+}
+
+.skill3{
+    margin-top: 30%;
+    margin-left: -53%;
+}
+
+.skill4 img{
+    width: 80px;
+    height: 80px;
+}
+
+.skill4 {
+    margin-top: 30%;
+}
+
+#fundo {
+    fill: red;
+}
+
+
+

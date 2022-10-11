@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio Felipe Melo</title>
+    <meta name="author" content="Felipe Cardenaz de Melo">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/sobre.css">
+    <link rel="stylesheet" href="css/projetos.css">
+    <link rel="stylesheet" href="css/habilidades.css">
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+  
+    <section id="Header">
+        <div class="Links">
+            <ul>
+                <li><a href="#Header">Início</a></li>
+                <li><a href="#Sobre">Sobre</li>
+                <li><a href="#Projetos">Projetos</a></li>
+                <li><a href="#Habilidades">Habilidades</a></li>
+            </ul>
+          </div>
+        <div class="text1">
+            <h1>Olá<span>, me chamo</span></h1>
+            <h1>Felipe Melo</h1>
+            <h2>e sou</h2>
+            <h3>Front-End Developer</h3>
+            <script>
+                function typeWriter(elemento) {
+                    const textoArray = elemento.innerHTML.split('');
+                    elemento.innerHTML = '';
+                    textoArray.forEach((letra, i) =>{
+                        setTimeout(function() {
+                            elemento.innerHTML += letra;
+                        }, 75 * i)
+                    })
+                }
+                
+                const titulo = document.querySelector('h3')
+                typeWriter(titulo);
+            </script>
+            <button onclick="window.location.href='https://github.com/FelipeCardenazDeMelo?tab=repositories'">GitHub</button>
+            <button  onclick="window.location.href='https://www.linkedin.com/in/felipe-cardenaz-de-melo-34072520b/'" >Linkedin</button>
+        </div>
+        
+        <div class="animacao">
+        <div class="img">
+            <div class="foguete">
+                <img src="img/foguete.png">
+            </div>
+        </div>
+
+            <script>
+                const foguete = document.querySelector(".foguete")
+                let funcionando = true 
+                function PararFoguete() {
+                    foguete.setAttribute("style", "animation: none")
+                    funcionando = false
+                }
+            </script>
+        </div>
+    </section>
+
+    <section id="Sobre">
+        <div class="centralizador">
+          <div class="Sobre">
+            <h2>Sobre mim...</h2>
+            <div class="sobre-descricao">
+              <div class="containerSobre2">
+                <div class="skill-box skill1 html-skill">
+                  <img
+                    class="icones-Sobre"
+                    src="img/book.png"
+                    alt="html-icon"
+                  />
+                </div>
+                <div class="skill-box skill2 css-skill">
+                  <img
+                    class="icones-Sobre"
+                    src="img/mala.png"
+                    alt="css-icon"
+                  />
+                </div>
+                
+                <div class="skill-box skill3">
+                  <img
+                    class="icones-Sobre"
+                    src="img/contato.png"
+                    alt="react-icon"
+                  />
+                </div>
+                <div class="skill-box skill4 sass-skill">
+                  <img
+                    class="icones-Sobre"
+                    src="img/objetivo.png"
+                    alt="sass-icon"
+                  />
+                </div>
+                
+                
+              </div>
+              <div class="containerDescricao">
+                <p class="texto-descricao">
+                   Passe o mouse em cima para acessar o conteúdo 
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section id="Projetos">
+        <h1>Projetos</h1>
+        <div class="containerProjetos">
+          
+          <input type="radio" name="slider" id="projeto-1" checked>
+          <input type="radio" name="slider" id="projeto-2"checked>
+          <input type="radio" name="slider" id="projeto-3" checked>
+          <div class="cards">
+            <label class="card" for="projeto-1" id="song-1"> 
+              <img class="imgProjeto" src="img/print.JPG">
+              <a href="https://simuladorrvtotvs.netlify.app/" target="_blank">Simulador de Metas</a>
+              <p>Aplicação desenvolvida para cálcuo de comissões de acordo com Prospecções x Vendas.</p>
+            </label>
+            <label class="card" for="projeto-2" id="song-2">
+              <img class="imgProjeto" src="img/sistemanuvem.JPG">
+              <a href="https://simuladorrvtotvs.netlify.app/" target="_blank">Formulário</a>
+              <p>Aplicação de login e cadastro com validações e acesso ao Local Storage para salvar os dados cadastrados</p>
+            </label>
+            <label class="card" for="projeto-3" id="song-3">
+              <h1>Em desenvolvimento...</h1>
+            </label>
+          </div>
+
+        </div>
+        
+    </section>
+  
+    <section id="Habilidades">
+        <h1>Habilidades</h1>
+        <div id="container-habilidades">
+          <h2>Clique para vizualizar a habilidade</h2>
+          <div class="card-habilidades">
+            <h1>HTML-5</h1>
+            <svg height="300px">
+              <circle cx="130" cy="130" r="60"></circle>
+              <circle id="circleProgress2"  cx="130" cy="130" r="60"></circle>
+            </svg>
+            <div class="imgCircle"></div>
+            <p>Utilizo HTML5 há cerca de 10 meses em projetos pessoais e na faculdade.</p>
+          </div>
+
+          <div class="card-habilidades">
+            <h1>CSS-3</h1>
+            <svg height="300px">
+              <circle cx="130" cy="130" r="60"></circle>
+              <circle id="circleProgress2"  cx="130" cy="130" r="60"></circle>
+            </svg>
+            <div class="imgCircle2"></div>
+            <p>Estudo CSS3 há cerca de 9 meses, também utilizo muito em meus projetos pessoas e na faculdade.</p>
+          </div>
+
+          <div class="card-habilidades">
+            <h1>JavaScript</h1>
+            <svg height="300px">
+              <circle cx="130" cy="130" r="60"></circle>
+              <circle id="circleProgress2"  cx="130" cy="130" r="60"></circle>
+            </svg>
+            <div class="imgCircle3"></div>
+            <p>Aplico JavaScript em meus projetos há cerca de 4 meses.</p>
+          </div>
+        </div>
+        <button id="VerMais" onclick=" VerMais() ">Ver mais</button>
+        
+    </section>
+    <script src="index.js"></script>
+
+    
+</body>
+</html>

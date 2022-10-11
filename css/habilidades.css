@@ -1,0 +1,195 @@
+#Habilidades {
+    background-image: radial-gradient( circle farthest-corner at -4% -12.9%,  rgb(21, 28, 31) 0.3%, rgb(12, 14, 21) 90.2% );    
+    height: 700px;
+    margin: -8px;
+    border: 1px solid transparent;
+    padding: 0;     
+}
+
+#Habilidades h1 { 
+    text-align:     center;
+    padding-bottom: 50px;
+    font-family: "Prompt-Regular";
+    font-size: 50px;
+    color: white;
+    margin-top: 4%;
+}
+
+#container-habilidades{
+    align-items: center;
+    width: 80%;
+    height: 500px;
+    margin-left: 10%;
+    margin-top: -4%;
+    border: 1px solid white;
+    transition: ease-in-out .5s;
+}
+
+#container-habilidades h2{
+    text-align: center;
+    color: crimson;
+    font-family: 'Reem-Regular';
+    font-size: 30px;
+}
+
+.card-habilidades{
+    width: 250px;
+    height: 200px;
+    border: 1px solid #1fabf1;
+    transition: ease .7s ;
+    position: absolute;
+    cursor: pointer;
+    border-radius: 20px;
+    background-image: radial-gradient( circle farthest-corner at -4% -12.9%,  rgb(29, 38, 43) 0.3%, rgb(30, 34, 51) 90.2% );    
+}
+
+.card-habilidades:hover{
+    height: 320px;
+    box-shadow: 0 0 2px rgba(0,155,255,0.5),
+                0 0 10px rgba(0,155,255,0.5),
+                0 0 10px rgba(0,155,255,0.5),
+                0 0 10px rgba(0,155,255,0.5),
+                0 0 10px rgba(0,155,255,0.5);
+}
+
+
+
+#Habilidades .card-habilidades h1{
+    font-size: 25px;
+    color: #1fabf1;
+}
+
+svg {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin-left: -3%;
+    margin-top: -50%;
+    transition: all ease-in-out 0.5;
+    z-index: 2;
+}
+
+circle {
+    width: 200px;
+    height: 200px;
+    fill: none;
+    stroke: black;
+    stroke-width: 7;
+    transform: translate(5px, 5px);
+    stroke-dasharray: 753;
+    stroke-dashoffset: 753;
+    transition: all ease-in-out 0.5;
+}
+
+circle:nth-child(1) {
+    stroke-dashoffset: 110;
+    stroke: rgb(43, 43, 43);
+}
+
+circle:nth-child(2) {
+    transition:  stroke-dashoffset 1.5s;
+    stroke: rgb(128, 255, 0);
+}
+
+.imgCircle{
+    width: 110px;
+    height: 110px;
+    border-radius: 100%;
+    margin-left: 28.5%;
+    margin-top: -50%;
+    background-image: url(../img/html.png);
+    background-size: cover;
+    border: 2px solid transparent;
+    background-repeat: no-repeat;
+    filter: grayscale(1);
+    transition: ease .5s;
+    z-index: 1;
+}
+
+.card-habilidades:hover circle:nth-child(2) {
+    stroke-dashoffset: 560;
+}
+
+.card-habilidades:hover .imgCircle{
+    filter: grayscale(0);
+}
+
+.card-habilidades p{
+    font-size: 18px;
+    margin-top: -30%;
+    visibility: hidden;
+    transition: ease .5s ;
+}
+
+.card-habilidades:hover p{
+    margin-top: 7%;
+    visibility: visible;
+}
+
+
+/* CARD DE CSS */
+
+.card-habilidades:nth-child(3){
+    margin-left: 30%;
+    margin-top: 0;
+    position: absolute;
+}
+
+.imgCircle2 {
+    width: 110px;
+    height: 110px;
+    border-radius: 100%;
+    margin-left: 28.5%;
+    margin-top: -50%;
+    background-image: url(../img/css3.png);
+    background-size: cover;
+    border: 2px solid transparent;
+    background-repeat: no-repeat;
+    filter: grayscale(1);
+    transition: ease .5s;
+    z-index: 1;
+}
+
+
+
+.card-habilidades:hover .imgCircle2{
+    filter: grayscale(0);
+}
+
+/* CARD DE JAVASCRIPT */
+
+.card-habilidades:nth-child(4){
+    margin-left: 59%;
+    margin-top: 0;
+    position: absolute;
+}
+
+.imgCircle3 {
+    width: 110px;
+    height: 110px;
+    border-radius: 100%;
+    margin-left: 28.5%;
+    margin-top: -50%;
+    background-image: url(../img/JavaScript.png);
+    background-size: contain;
+    border: 2px solid transparent;
+    background-repeat: no-repeat;
+    filter: grayscale(1);
+    transition: ease .5s;
+    z-index: 1;
+}
+
+.card-habilidades:hover .imgCircle3{
+    filter: grayscale(0);
+}
+
+#VerMais {
+    margin-left: 45%;
+    margin-top: -5%;
+    position: absolute;
+    border-radius: 30px;
+    height: 30px;
+    width: 125px;
+    font-size: 16px;
+    cursor: pointer;
+}
