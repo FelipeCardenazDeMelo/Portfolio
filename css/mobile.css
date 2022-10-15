@@ -169,3 +169,78 @@
     
 
 }
+
+@media only screen and (min-width: 358px) and (max-width:369px) {
+    
+    body #Sobre {
+        height: 980px;
+    }
+    
+    .containerSobre2 {
+        height: 230px;
+        margin-top: -4%;
+        margin-left: 18%;
+    }
+
+    .containerSobre2 .skill-box {
+        height: 80px;
+        width: 80px;
+        background-color: #209bd871   ;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        background-repeat: no-repeat;
+        background-position: center;
+        transition: ease 0.3s;
+        box-shadow: 5px 5px #000000;
+    
+    }
+
+    .containerSobre2 .skill1 img{
+        width: 65px;
+        height: 65px;
+    }
+    
+    .containerSobre2 .skill1 {
+        margin-left: -53%;
+    }
+
+    
+    .containerSobre2 .skill2 img{
+        width: 65px;
+        height: 65px;
+    }
+
+    .containerSobre2 .skill2 {
+        margin-left: 58%;
+        margin-top: -56.5%;
+    }
+    
+    .containerSobre2 .skill3 img{
+        width: 65px;
+        height: 65px;
+    }
+
+    .containerSobre2 .skill3 {
+        margin-left: 0%;
+        margin-top: -6%;
+    }
+
+    .containerSobre2 .skill4 img{
+        width: 65px;
+        height: 65px;
+    }
+
+    .containerSobre2 .skill4 {
+        margin-top: -5%;
+    }
+
+    .containerDescricao .texto-descricao{
+        margin-top: 20%;
+        margin-left: 37%;
+        width: 320px;
+    }
+
+}

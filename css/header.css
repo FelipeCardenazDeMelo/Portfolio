@@ -167,7 +167,7 @@ button:hover {
     top: 150px;
     position: relative;
     border-radius: 100%;
-    background-image: url('../img/Imagem.png');
+    background-image: url('../img/Imagem.jpg');
     background-size: cover;
     box-shadow: 0 0 15px rgba(0,155,255,0.1),
                 0 0 45px rgba(0,155,255,0.1),
@@ -216,7 +216,7 @@ button:hover {
     
     
     #Header{
-        height: 600px;
+        height: 650px;
      
     }
 
@@ -270,8 +270,8 @@ button:hover {
 
     h3 {
         color: crimson;
-        width: 320px;
-        font-size: 30px;
+        width: 340px;
+        font-size: 28px;
         margin-top: -59px;
         font-family: 'Reem-Regular';
         position: relative;
@@ -302,5 +302,46 @@ button:hover {
         transition: all .7s ease-in-out  ;
         margin-left: 20px;
         cursor: default;
+    }
+}
+
+@media only screen and (min-width: 358px) and (max-width:369px) {
+    .Links ul {
+        display: flex;
+        margin-left: -205px;
+        padding: 100px;
+        font-size: 17px;
+        margin-top: -65px;
+        font-family: 'Prompt-Regular';
+        position: fixed;
+    }
+
+    h3 {
+        color: crimson;
+        width: 280px;
+        font-size: 28px;
+        margin-top: -59px;
+        font-family: 'Reem-Regular';
+        position: relative;
+        left: 70px;
+        cursor: default;
+    }
+
+    button {
+        width: 150px;
+        height: 50px;
+        background-color: transparent;
+        border: 2px solid #209ad8;
+        color: white;
+        font-size: 20px;
+        border-radius: 5px;
+        font-family: monospace;
+        font-weight: bold;
+        transition: all ease .7s;
+        margin-top: -40px;
+        margin-left: 10px;
+        left: 0%;
+        position: relative;
+       
     }
 }
