@@ -2,5 +2,5 @@
 
 <h2> Tecnologias utiliadas: HTML, CSS, JavaScript</h2>
 
-[Clique para acessar o projeto](https://portifoliotestefelipe.netlify.app/)
+[Clique para acessar o projeto](https://portifoliofelipemelo.netlify.app/)
 
