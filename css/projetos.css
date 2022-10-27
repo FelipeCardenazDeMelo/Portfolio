@@ -29,10 +29,7 @@ input[type=radio] {
 }
 
 
-#song-3 {
-    background-color: black;
-    border-radius: 15px;
-}
+
 
 .card {
     position: absolute;
@@ -43,7 +40,7 @@ input[type=radio] {
     margin: auto;
     cursor: pointer;
     transition: transform .4s ease;
-    cursor: default;
+    cursor: pointer;
 }
 
 .containerProjetos{
@@ -105,11 +102,7 @@ p{
     background-color: transparent;
 }
 
-#song-3 h1 {
-    font-family: monospace;
-    font-size: 23px;
-    color: chartreuse;
-}
+
 
 
 #projeto-1:checked ~.cards #song-3,
