@@ -86,6 +86,15 @@ p{
     margin-left: 36%;
 }
 
+#song-3 a{
+    transition: ease-in-out.5s;
+    font-family: 'Reem-Regular';
+    color: #0fafff ;
+    font-size: 26px;
+    text-align: center;
+    margin-left: 23%;
+}
+
 #song-2 a:hover {
     color: white;
 }
@@ -102,6 +111,13 @@ p{
     background-color: transparent;
 }
 
+#song-3 a:hover {
+    color: white;
+}
+
+#song-3 a::before {
+    background-color: transparent;
+}
 
 
 

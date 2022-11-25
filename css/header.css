@@ -144,7 +144,7 @@ button {
     margin-left: 20px;
     left: 0%;
     position: relative;
-   
+    cursor: pointer;
 }
 
 button:hover {
@@ -167,7 +167,7 @@ button:hover {
     top: 150px;
     position: relative;
     border-radius: 100%;
-    background-image: url('../img/Imagem.jpg');
+    background-image: url('../img/perfil.jpg');
     background-size: cover;
     box-shadow: 0 0 15px rgba(0,155,255,0.1),
                 0 0 45px rgba(0,155,255,0.1),
