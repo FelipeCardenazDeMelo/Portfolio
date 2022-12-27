@@ -231,8 +231,17 @@ p{
     font-family: 'Reem-Regular';
     color: #0fafff ;
     font-size: 16px;
-    margin-left: 32%;
-   
+    margin-left: 32%;  
 }
+
+#song-3 a{ 
+    transition: ease-in-out.5s;
+    font-family: 'Reem-Regular';
+    color: #0fafff ;
+    font-size: 16px;
+    margin-left: 12%;  
+}
+
+
 
 }
