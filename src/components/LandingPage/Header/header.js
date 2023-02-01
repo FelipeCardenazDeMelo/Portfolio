@@ -145,7 +145,7 @@ export default function Header() {
         var line3 = document.querySelector(".line3")
         
         
-        if (navList.style.left == "-100vw") {
+        if (navList.style.left === "-100vw") {
             navList.style.left = "0";
             line1.style.transform = "rotate(-45deg) translate(-8px, 8px)";
             line2.style.opacity = "0";
@@ -173,7 +173,7 @@ export default function Header() {
                         <div class="line3"></div>
                     </div>
                     <ul class="nav-list">
-                        <li><a href="#" class="side-bar__link">Início</a></li>
+                        <li><a href="#Inicial" class="side-bar__link">Início</a></li>
                         <li><a href="#About" class="side-bar__link">Sobre</a></li>
                         <li><a href="#Project" class="side-bar__link">Projetos</a></li>
                     </ul>

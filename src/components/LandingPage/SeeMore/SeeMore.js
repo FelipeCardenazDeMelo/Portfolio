@@ -2,7 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 import {SlArrowDown} from 'react-icons/sl';
 
-import { thirdColorLight } from '../../../assets/UI/variables';
 
 const SeeMoreStyle = styled.div `
     width: 10%;

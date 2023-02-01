@@ -220,19 +220,19 @@ export default function Project() {
 
                     <div class="cards">
                         <label class="card project" for="projeto-1" id="song-1">
-                        <img class="imgProjeto" src={pokedex} />
+                        <img class="imgProjeto" alt="pokedex" src={pokedex} />
                             <a href="https://pokedexfelipemelo.netlify.app/" target="_blank" class="link__project" >Pokedex</a>
                             <p>Aplicação desenvolvida para aprimorar as habilidades em consumo de API’s, utilizando a Poke API, uma API aberta</p>
                         </label> 
 
                         <label class="card project" for="projeto-2" id="song-2">
-                            <img class="imgProjeto" src={dash} />
+                            <img class="imgProjeto" alt="dash" src={dash} />
                             <a href="#" target="_blank" class="link__project">Dash Comissões</a>
                             <p>Esta aplicação foi desenvolvida para calcular o comissionamento e metas do time comercial. </p>
                         </label>
 
                         <label class="card project" for="projeto-3" id="song-3">
-                            <img class="imgProjeto" src={MTS} />
+                            <img class="imgProjeto"  alt="mts" src={MTS} />
                             <a href="https://metroskateboarding.netlify.app/" target="_blank" class="link__project">Metro Skateboarding</a>
                             <p>Esta aplicação foi desenvolvida para aprimorar os conhecimentos em FlexBox e Grid Containers.</p>
                         </label>

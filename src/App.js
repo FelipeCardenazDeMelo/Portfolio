@@ -27,7 +27,7 @@ function App() {
                 <input type="checkbox" class="switch-button" onClick={() => {
                   toggleMode();
                   var labelDarkMode = document.querySelector('.label-dark-mode');
-                  if (labelDarkMode.innerHTML == "Light Mode") {
+                  if (labelDarkMode.innerHTML === "Light Mode") {
                     labelDarkMode.innerHTML = " Dark Mode";
                   } else {
                     labelDarkMode.innerHTML = "Light Mode"

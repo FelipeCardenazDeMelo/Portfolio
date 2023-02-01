@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import React from "react";
 
-import DarkModeSelector from "./DarkModeSelector/darkModeSelector";
 import Header from "./Header/header";
 import Content from "./Content/Content";
 import SeeMore from "./SeeMore/SeeMore";
@@ -20,7 +19,7 @@ const LandingPageStles = styled.div `
 export default function LandingPage () {
 
     return (
-            <LandingPageStles>
+            <LandingPageStles id="Inicial">
                 <Header></Header>
                 <Content></Content>
                 <SeeMore></SeeMore>

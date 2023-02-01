@@ -1,10 +1,6 @@
 import styled from "styled-components";
-import React, {useState} from 'react';
 
 import { backgroundColorLight, backgroundColorDark } from "../../../assets/UI/variables";
-import { secondColorLight } from "../../../assets/UI/variables";
-import {LightMode, DarkMode} from '../../../assets/UI/themes';
-
 
 
 export const DarkModeSelectorStyle = styled.button `
