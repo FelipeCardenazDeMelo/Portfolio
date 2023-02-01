@@ -1,0 +1,51 @@
+import { backgroundColorLight,firstColorLight, secondColorLight, thirdColorLight, imgCodeLight, backgroundColorDark, thirdColorDark, firstColorDark, secondColorDark, imgCodeDark} from './variables'
+
+export const LightMode = {
+    background: backgroundColorLight,
+    backgroundMobile: "#52796F",
+    headerText: thirdColorLight,
+    headerHoverText: "#3e9881",
+    headerHoverEffect: thirdColorLight,
+    contentTextH2: firstColorLight,
+    contentTextH1: secondColorLight,
+    imgCode: imgCodeLight,
+    darkModeLabel: secondColorLight,
+    seeMore: thirdColorLight,
+    aboutBackground: "FFFFFF",
+    aboutTextH1: "#52796F",
+    borderSideBar: "#52796F",
+    buttonText: "#FFFFFF",
+    professionalTextH2: "#021438",
+    backgroundProject: "#52796F",
+    titleProject: "#FFFFFF",
+    backgroundSkills: "#CAD2C5",
+    titlleSkills: "#52796F",
+    backgroundCardSkills: "#52796F",
+    titleCardSkills: "#021438",
+    
+} 
+
+export const DarkMode = {
+    background: backgroundColorDark,
+    backgroundMobile: "#231F20",
+    headerText: thirdColorDark,
+    headerHoverText: secondColorDark,
+    headerHoverEffect: thirdColorDark,
+    contentTextH2: firstColorDark,
+    contentTextH1: secondColorDark,
+    imgCode: imgCodeDark,
+    darkModeLabel: secondColorDark,
+    seeMore: secondColorDark,
+    aboutBackground: "#231F20",
+    aboutTextH1: "#00D7A0",
+    borderSideBar: "#00D7A0",
+    buttonText: "#231F20",
+    professionalTextH2: "#FFFFFF",
+    backgroundProject: "#1E272C",
+    titleProject: "#CAD2C5",
+    backgroundSkills: "#2F3E46",
+    titlleSkills: "#FFFFFF",
+    backgroundCardSkills: "#11191D",
+    titleCardSkills: "#00D7A0",
+    
+}

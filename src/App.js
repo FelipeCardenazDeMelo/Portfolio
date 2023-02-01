@@ -1,24 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+import { GlobalStyle } from "./components/GlobalStyles";
+import { ThemeProvider } from "styled-components";
+import './assets/css/style.css';
+import {LightMode, DarkMode} from './assets/UI/themes';
+import React, {useState} from 'react';
+
+import {DarkModeSelectorStyle} from "./components/LandingPage/DarkModeSelector/darkModeSelector";
+import LandingPage from "./components/LandingPage/landingPage";
+import About from "./components/About/about";
+import Project from "./components/Projects/projects";
 
 function App() {
+   
+  const [mode, setMode] = useState(true);
+
+  const toggleMode = () => {
+    setMode((mode) => !mode);
+  };
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={mode ? DarkMode: LightMode}>
+      <GlobalStyle/> 
+      <DarkModeSelectorStyle>
+            <div class="dark-mode-selector">
+                <label class="label-dark-mode">Light Mode</label>
+                <input type="checkbox" class="switch-button" onClick={() => {
+                  toggleMode();
+                  var labelDarkMode = document.querySelector('.label-dark-mode');
+                  if (labelDarkMode.innerHTML == "Light Mode") {
+                    labelDarkMode.innerHTML = " Dark Mode";
+                  } else {
+                    labelDarkMode.innerHTML = "Light Mode"
+                  };
+                }}  ></input>
+            </div>
+        </DarkModeSelectorStyle>
+        <LandingPage/>
+        <About/>
+        <Project/>
+    </ThemeProvider>
   );
 }
 

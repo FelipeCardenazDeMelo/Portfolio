@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url('../fonts/Montserrat/static/Montserrat-Medium.ttf');
+}
+
+@font-face {
+    font-family: "Montserrat-Light";
+    src: url('../fonts/Montserrat/static/Montserrat-Light.ttf');
+}
+
+@font-face {
+    font-family: "Prompt";
+    src: url('../fonts/Prompt/Prompt-Regular.ttf');
+}
+
+
+::-webkit-scrollbar-track{
+    background-color: rgb(23, 1, 52);
+}
+
+::-webkit-scrollbar{
+    width: 6px;
+    background-color: #F4F4F4;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(0, 110, 255);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-corner{
+    background-color: rgba(39, 0, 89, 1);
+
+}
+
+
+
